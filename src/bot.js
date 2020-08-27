@@ -11,11 +11,11 @@ bot.on("ready", () => {
     console.log(`${bot.user.tag} has logged in`);
 });
 
-bot.on("message", (message) => {
-    if (message.author.bot) return;
-    if (message.content.startsWith(PREFIX)) {
-    }
-});
+// bot.on("message", (message) => {
+//     if (message.author.bot) return;
+//     if (message.content.startsWith(PREFIX)) {
+//     }
+// });
 
 bot.on("messageReactionAdd", (reaction, user) => {
     const { name } = reaction.emoji;
