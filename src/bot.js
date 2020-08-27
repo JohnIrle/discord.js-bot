@@ -70,7 +70,7 @@ bot.on("messageReactionRemove", (reaction, user) => {
                 member.roles.remove("748379025776574535");
                 break;
             case "🧠":
-                member.roles.add("748381301769502833");
+                member.roles.remove("748381301769502833");
         }
     }
 });
