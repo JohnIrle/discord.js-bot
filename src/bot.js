@@ -40,6 +40,8 @@ bot.on("messageReactionAdd", (reaction, user) => {
             case "🐘":
                 member.roles.add("748379025776574535");
                 break;
+            case "🧠":
+                member.roles.add("748381301769502833");
         }
     }
 });
@@ -67,6 +69,8 @@ bot.on("messageReactionRemove", (reaction, user) => {
             case "🐘":
                 member.roles.remove("748379025776574535");
                 break;
+            case "🧠":
+                member.roles.add("748381301769502833");
         }
     }
 });
